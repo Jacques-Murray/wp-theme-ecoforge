@@ -3,6 +3,25 @@ Theme Name: EcoForge
 Theme URI: https://jacquesmurray.online/ecoforge
 Author: Jacques Murray
 Author URI: https://jacquesmurray.online
-Description: A production-ready WordPress theme for EcoForge, built from HTML design.
-Version: 1.0
+Description: A sustainable and eco-friendly WordPress theme.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: ecoforge
+Tags: eco, green, sustainable, responsive, custom-colors, custom-header
 */
+
+.growing-tree {
+  animation: grow 2s ease-out forwards;
+  transform-origin: bottom;
+}
+
+@keyframes grow {
+  0% {
+    transform: scaleY(0);
+  }
+
+  100% {
+    transform: scaleY(1);
+  }
+}
