@@ -1,0 +1,41 @@
+# WordPress theme build artifacts
+*.log
+*.tmp
+*.bak
+*.swp
+
+# IDE/editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Node/npm
+node_modules/
+npm-debug.log*
+dist/
+build/
+
+# Sass/CSS build
+*.css.map
+*.scssc
+
+# Composer (if used)
+vendor/
+composer.lock
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# WP CLI cache
+.wp-cli/cache/
+
+# Optional: exclude compiled assets
+assets/js/*.min.js
+assets/css/*.min.css
